@@ -94,6 +94,32 @@ Month Lunar::yueLiCalc(int By, uint8_t Bm)
         day.cur_mz = day.d0 - mSSQ.ZQ[11];  //距芒种的天数
         day.cur_xs = day.d0 - mSSQ.ZQ[13];  //距小暑的天数
         
+        
+        day.cur_dz = day.d0 - mSSQ.ZQ[0];   //距冬至的天数
+
+    day.cur_xh = day.d0 - mSSQ.ZQ[1];
+    day.cur_dh = day.d0 - mSSQ.ZQ[2];   //距大寒的天数
+    day.cur_lc = day.d0 - mSSQ.ZQ[3];   //距立春的天数
+    day.cur_ys = day.d0 - mSSQ.ZQ[4];
+    day.cur_zc = day.d0 - mSSQ.ZQ[5];
+    day.cur_cf = day.d0 - mSSQ.ZQ[6];
+    day.cur_qm = day.d0 - mSSQ.ZQ[7];
+    day.cur_gy = day.d0 - mSSQ.ZQ[8];
+    day.cur_lx = day.d0 - mSSQ.ZQ[9];
+    day.cur_xm = day.d0 - mSSQ.ZQ[10];
+   
+    day.cur_ds = day.d0 - mSSQ.ZQ[14];
+  
+
+    day.cur_cs = day.d0 - mSSQ.ZQ[16];
+    day.cur_bl = day.d0 - mSSQ.ZQ[17];
+    day.cur_qf = day.d0 - mSSQ.ZQ[18];
+    day.cur_hl = day.d0 - mSSQ.ZQ[19];
+    day.cur_sj = day.d0 - mSSQ.ZQ[20];
+    day.cur_ld = day.d0 - mSSQ.ZQ[21];
+    day.cur_xx = day.d0 - mSSQ.ZQ[22];
+    day.cur_dx = day.d0 - mSSQ.ZQ[23];
+        
 //        for(auto it = mSSQ.ZQ.begin(); it != mSSQ.ZQ.end(); ++it)
 //        {
 //            day.cur_jq.push_back( *it );
